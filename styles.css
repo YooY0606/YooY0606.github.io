@@ -42,6 +42,10 @@
         background-image: url('https://imgur.dcard.tw/QxwaBfoh.jpg');
         text-align: center;
     }
+    iframe{
+        width:"560 px" ;
+        height:"315 px";
+    }
 }
 @media(min-width: 768px) {
     h1{
@@ -86,6 +90,10 @@
     div{
         background-image: url('https://pic.pimg.tw/higold501/1510786137-2900543935_n.jpg');
         text-align: center;
+    }
+    iframe{
+        width:"560 px" ;
+        height:"315 px";
     }
 }
 @media(min-width: 920px){
@@ -132,6 +140,10 @@
         background-image: url('https://megapx.dcard.tw/v1/images/9a4c76ea-94fa-4fc1-b2bf-ab4013a59857/encode/640.webp');
         text-align: center;
     }
+    iframe{
+        width:"560 px" ;
+        height:"315 px";
+    }
 }
 @media (max-width: 540px){
 h1{
@@ -176,5 +188,9 @@ p{
 div{
     background-image: url('https://imgur.dcard.tw/QxwaBfoh.jpg');
     text-align: center;
+}
+iframe{
+    width:"560 px" ;
+    height:"315 px";
 }
 }
