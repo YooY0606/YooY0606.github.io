@@ -22,6 +22,7 @@
     table{
         border-collapse: collapse;
         border: 1px solid black;
+        height: auto;
     }
     th{
         border:solid #1d1a5e; 
@@ -50,42 +51,44 @@
 @media(min-width: 768px) {
     h1{
         color: rgb(56, 51, 61);
-        font-size: 80px;
+        font-size: 120px;
         font-family:fantasy;
     }
     h2{
         color: rgb(56, 51, 61);;
-        font-size: 35px;
+        font-size: 50px;
         font-family:Comic Sans MS;
     }
     h3{
         color: rgb(56, 51, 61);;
-        font-size: 15px;
+        font-size: 35px;
         font-family:verdana;
     }
     h4{
         color: rgb(56, 51, 61);
-        font-size: 15px;
+        font-size: 35px;
         font-family:verdana;
     }
     table{
         border-collapse: collapse;
         border: 1px solid black;
+        height: auto;
     }
     th{
         border:solid #02004b; 
         color: rgb(56, 51, 61);
         font-family:verdana;
+        font-size: 20px;
     }
     td{
         border:solid #02004b; 
         color: rgb(56, 51, 61);
         font-family:verdana;
+        font-size: 20px;
     }
     p{
         color: rgb(56, 51, 61);;
         text-align: center;
-    
     }
     div{
         background-image: url('https://pic.pimg.tw/higold501/1510786137-2900543935_n.jpg');
@@ -99,37 +102,40 @@
 @media(min-width: 920px){
     h1{
         color: rgb(56, 51, 61);
-        font-size: 80px;
+        font-size: 110px;
         font-family:fantasy;
     }
     h2{
         color: rgb(56, 51, 61);;
-        font-size: 35px;
+        font-size: 50px;
         font-family:Comic Sans MS;
     }
     h3{
         color: rgb(56, 51, 61);;
-        font-size: 15px;
+        font-size: 40px;
         font-family:verdana;
     }
     h4{
         color: rgb(56, 51, 61);
-        font-size: 15px;
+        font-size: 40px;
         font-family:verdana;
     }
     table{
         border-collapse: collapse;
         border: 1px solid black;
+        font-size: 30px;
     }
     th{
         border:solid #02004b; 
         color: rgb(56, 51, 61);
         font-family:verdana;
+        font-size: 15px;
     }
     td{
         border:solid #02004b; 
         color: rgb(56, 51, 61);
         font-family:verdana;
+        height: auto;
     }
     p{
         color: rgb(56, 51, 61);;
@@ -169,6 +175,7 @@ h4{
 table{
     border-collapse: collapse;
     border: 1px solid black;
+    height: auto;
 }
 th{
     border:solid #1d1a5e; 
@@ -202,11 +209,11 @@ iframe{
     
     padding-top:30px;height:0;overflow:hidden;
     
-    }
-    .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
